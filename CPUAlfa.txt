@@ -1,103 +1,34 @@
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 25
+model		: 80
+model name	: AMD Ryzen 7 5700G with Radeon Graphics
+stepping	: 0
+microcode	: 0xa50000c
+cpu MHz		: 3800.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 16
+core id		: 0
+cpu cores	: 8
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx sse4_1 sse4_2 avx avx2
+bugs		: spectre_v1 spectre_v2
+bogomips	: 7600.00
+TLB size	: 2560 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro
 
-Nombre de host:                            DESKTOP-M9982LB
-Nombre del sistema operativo:              Microsoft Windows 10 Home Single Language
-Versi¢n del sistema operativo:             10.0.19045 N/D Compilaci¢n 19045
-Fabricante del sistema operativo:          Microsoft Corporation
-Configuraci¢n del sistema operativo:       Estaci¢n de trabajo independiente
-Tipo de compilaci¢n del sistema operativo: Multiprocessor Free
-Propiedad de:                              HP
-Organizaci¢n registrada:                   
-Id. del producto:                          00327-30910-56175-AAOEM
-Fecha de instalaci¢n original:             13/05/2021, 15:32:07
-Tiempo de arranque del sistema:            28/05/2025, 7:45:58
-Fabricante del sistema:                    HP
-Modelo el sistema:                         HP Pavilion x360 Convertible 14-dh0xxx
-Tipo de sistema:                           x64-based PC
-Procesador(es):                            1 Procesadores instalados.
-                                           [01]: Intel64 Family 6 Model 142 Stepping 12 GenuineIntel ~2103 Mhz
-Versi¢n del BIOS:                          Insyde F.13, 11/06/2020
-Directorio de Windows:                     C:\Windows
-Directorio de sistema:                     C:\Windows\system32
-Dispositivo de arranque:                   \Device\HarddiskVolume1
-Configuraci¢n regional del sistema:        es;Espa¤ol (internacional)
-Idioma de entrada:                         es-mx;Espa¤ol (M‚xico)
-Zona horaria:                              (UTC-03:00) Ciudad de Buenos Aires
-Cantidad total de memoria f¡sica:          3.918 MB
-Memoria f¡sica disponible:                 289 MB
-Memoria virtual: tama¤o m ximo:            13.442 MB
-Memoria virtual: disponible:               5.217 MB
-Memoria virtual: en uso:                   8.225 MB
-Ubicaci¢n(es) de archivo de paginaci¢n:    C:\pagefile.sys
-Dominio:                                   WORKGROUP
-Servidor de inicio de sesi¢n:              \\DESKTOP-M9982LB
-Revisi¢n(es):                              50 revisi¢n(es) instaladas.
-                                           [01]: KB5056578
-                                           [02]: KB5030841
-                                           [03]: KB4562830
-                                           [04]: KB4570334
-                                           [05]: KB4577586
-                                           [06]: KB4580325
-                                           [07]: KB4586864
-                                           [08]: KB5003791
-                                           [09]: KB5011048
-                                           [10]: KB5011056
-                                           [11]: KB5012170
-                                           [12]: KB5015684
-                                           [13]: KB5058379
-                                           [14]: KB5006753
-                                           [15]: KB5007273
-                                           [16]: KB5011352
-                                           [17]: KB5011651
-                                           [18]: KB5014032
-                                           [19]: KB5014035
-                                           [20]: KB5014671
-                                           [21]: KB5015895
-                                           [22]: KB5016705
-                                           [23]: KB5018506
-                                           [24]: KB5020372
-                                           [25]: KB5022924
-                                           [26]: KB5023794
-                                           [27]: KB5025315
-                                           [28]: KB5026879
-                                           [29]: KB5028318
-                                           [30]: KB5028380
-                                           [31]: KB5029709
-                                           [32]: KB5031539
-                                           [33]: KB5032392
-                                           [34]: KB5032907
-                                           [35]: KB5034224
-                                           [36]: KB5036447
-                                           [37]: KB5037018
-                                           [38]: KB5037240
-                                           [39]: KB5037995
-                                           [40]: KB5039336
-                                           [41]: KB5041579
-                                           [42]: KB5043935
-                                           [43]: KB5043130
-                                           [44]: KB5046823
-                                           [45]: KB5050388
-                                           [46]: KB5050111
-                                           [47]: KB5052916
-                                           [48]: KB5054682
-                                           [49]: KB5058526
-                                           [50]: KB5005699
-Tarjeta(s) de red:                         3 Tarjetas de interfaz de red instaladas.
-                                           [01]: Bluetooth Device (Personal Area Network)
-                                                 Nombre de conexi¢n: Conexi¢n de red Bluetooth
-                                                 Estado:             Medios desconectados
-                                           [02]: Realtek RTL8821CE 802.11ac PCIe Adapter
-                                                 Nombre de conexi¢n: Wi-Fi
-                                                 DHCP habilitado:    S¡
-                                                 Servidor DHCP:      192.168.1.1
-                                                 Direcciones IP
-                                                 [01]: 192.168.1.43
-                                                 [02]: fe80::3ab:8890:36c2:976d
-                                                 [03]: 2802:8010:6037:1900:1c25:13ed:2f1a:15cb
-                                                 [04]: 2802:8010:6037:1900:f7e6:d6c6:38d9:55a1
-                                           [03]: VirtualBox Host-Only Ethernet Adapter
-                                                 Nombre de conexi¢n: Ethernet
-                                                 DHCP habilitado:    No
-                                                 Direcciones IP
-                                                 [01]: 192.168.56.1
-                                                 [02]: fe80::a960:463f:ec16:d120
-Requisitos Hyper-V:                        Se detect¢ un hipervisor. No se mostrar n las caracter¡sticas necesarias para Hyper-V.
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 25
+model		: 80
+model name	: AMD Ryzen 7 5700G with Radeon Graphics
+cpu MHz		: 3800.000
