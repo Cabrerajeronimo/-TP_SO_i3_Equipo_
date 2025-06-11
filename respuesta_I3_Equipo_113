@@ -3,12 +3,41 @@ BETA : Tomas Jeronimo Cabrera Osuna
 GAMMA: Ramiro Albornoz
 
 Responde BETA:
-a-¿Cómo queda el máster después de estos cambios?
-b-¿Beta pudo ver todos los cambios que se realizaron?
-c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+a- ¿Cómo queda el máster después de estos cambios?
+El máster queda con todos los archivos actualizados: datos.txt, CPUGamma.txt, CPUAlfa.txt, CPUBeta.txt y beta.txt, con los datos de todos los compañeros.
+
+b- ¿BETA pudo ver todos los cambios que se realizaron?
+Sí, BETA pudo ver todos los cambios en las ramas de GAMMA y de BETA antes de hacer el merge.
+
+c- ¿Qué debió hacer (todos los comandos) en el punto 5 para poder hacer el merge?
+git checkout master
+git pull origin master
+git merge ALBORNOZ
+git push origin master
+
 Responde GAMMA:
-d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
-e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
-f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+d- ¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+Sí, las ramas siguen existiendo con los datos agregados, aunque ahora todo también está en master
+
+e- Detalle (explique) los problemas que tuvieron al hacer el merge:
+Tuvimos conflictos en datos.txt porque varias personas lo modificaron. Git marcó el conflicto y lo resolvimos a mano borrando las marcas (<<<<<<<, =======, >>>>>>>) y dejando los datos correctos.
+
+f- ¿Qué debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+git fetch
+git checkout 
+git pull origin 
+nano beta.txt
+git add beta.txt
+git commit -m "GAMMA: agregó datos"
+git push origin 
+
 Responde ALFA:
 G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+git fetch
+git checkout 
+git pull origin 
+nano beta.txt
+git add beta.txt
+git commit -m "ALFA: agregó sus datos"
+git push origin 
+
